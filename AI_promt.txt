@@ -1,0 +1,66 @@
+AI promt
+Create a modern, elegant, single-page Restaurant Reservation website (front-end only) for a Restaurant brand called "Asian Food". The design should feel premium and relaxing, inspired by high-end Restaurant. Use a soft, warm color palette (white, cream, beige, gold accents, and dark text), large imagery, and smooth scrolling animations. give me a prompt only
+
+Update the welcome.tsx file resources/js/pages/welcome.tsx and implement these prompt 
+
+Design a modern, elegant, single-page restaurant reservation website for a premium brand named “Asian Food.” The visual style should feel calm, luxurious, and inviting, inspired by high-end dining experiences. Use a soft, warm color palette featuring white, cream, beige, subtle gold accents, and dark refined typography. Incorporate large, high-quality food and interior imagery, generous spacing, and a clean, minimalist layout.
+
+The page should include the following sections arranged in smooth scrolling flow:
+
+- A full-screen hero section with a stunning background image of Asian cuisine or a refined restaurant interior, an overlay gradient, the brand name “Asian Food,” a short tagline, and a prominent “Reserve a Table” call-to-action button.
+
+- An “About Us” section with a brief story about the restaurant’s philosophy, emphasizing authenticity, freshness, and premium dining.Restaurant Reservation System using Laravel 13 React and opencode
+
+- A “Menu Highlights” section displaying a curated selection of dishes with elegant cards, subtle hover effects, and refined typography.
+
+- A “Reservation Form” section with fields for name, date, time, number of guests, and contact details, styled with soft borders, rounded corners, and gold-accented focus states.
+
+- A “Gallery” section featuring a grid or masonry layout of high-quality images with smooth hover zoom effects.
+
+- A “Contact & Location” section including address, phone, email, and an embedded map placeholder.
+A minimal, elegant footer with social media icons and copyright text.
+
+Use modern UI/UX principles: smooth scrolling, subtle fade-in or slide-up animations on scroll, soft shadows, and micro-interactions. Typography should be sophisticated, using a combination of a modern serif for headings and a clean sans-serif for body text. Ensure the design is fully responsive, with a mobile-first approach and fluid layouts.
+
+Overall, the experience should feel serene, upscale, and effortless, encouraging users to make a reservation.
+
+
+Create a clean, scalable, and production-ready relational database design for a premium restaurant reservation system for a brand called “Asian Food.” The database should support core reservation functionality, customer management, table management, and dynamic content such as menu items and gallery images.
+
+Include the following entities and relationships:
+
+- A Customers table to store guest details such as name, email, and phone number, ensuring unique email constraints and timestamps for record tracking.
+- A Reservations table that links to customers and stores booking details including date, time, number of guests, reservation status (pending, confirmed, cancelled, completed), and optional special requests.
+- A Tables entity representing physical restaurant tables, including attributes like table number, seating capacity, and location (e.g., indoor, outdoor, VIP).
+- A Reservation_Tables junction table to support many-to-many relationships between reservations and tables, allowing flexible table combinations for larger groups.
+- A Menu_Items table for managing menu data dynamically, including name, description, price, category, image URL, and a flag for featured items.
+- A Gallery table to store images for the website gallery, including image URL, caption, and display order.
+
+Create Dashboard Page
+- Display real-time statistics:
+  - Total today reservation
+  - total Confirmed
+  - Total Guests Expected 
+  - total Capacity 
+  - Totay reservation in table
+-Use charts (Chart.js) for dashboard stats
+
+Create Reservation Page
+- View all Reservation (paginated, searchable)
+- Add Reservation (auto-approved option)
+- Edit Reservation details
+- Delete Reservation
+
+Create Customer Page
+- View all Customer (paginated, searchable)
+- Add Customer (auto-approved option)
+- Edit Customer details
+- Delete Customer
+
+update the welcome.tsx resources/js/pages/welcome.tsx for the reservation form http://127.0.0.1:8000/ Submit the form properly reservation then the submited form reservation is save to database for the customer and reservation database table 
+
+Create Table Page
+- View all Table (paginated, searchable)
+- Add Table (auto-approved option)
+- Edit Table details
+- Delete Table
